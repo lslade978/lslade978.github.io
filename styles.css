@@ -27,13 +27,32 @@ li a {
 	text-decoration: none;
 }
 
+.container {
+	margin: auto;
+	width:100%;
+	padding: 10px;
+	position:relative;
+}
+
 li a:hover {
 	text-decoration: underline;
 }
 
 .search-layout {
-	margin: auto;
-	padding: 10px;
+
+}
+
+.search-surround {
+    background: #fff;
+    display: flex;
+    border: 1px solid #dfe1e5;
+    box-shadow: none;
+    border-radius: 24px;
+    z-index: 3;
+    height: 44px;
+    margin: 0 auto;
+    width: 482px;
+    width: auto;
 }
 
 #search_field {
