@@ -8,15 +8,19 @@
     <div class="outer-container">
     	<div id="header">
             <ul class="nav">
-                <li class="nav-item"><a class="nav-link" href="google-image-search.html">Image Search</a></li>
-                <li class="nav-item"><a class="nav-link" href="google-advanced-search.html">Advanced Search</a></li>
+                <li><a class="nav-link" href="google-image-search.html">Image Search</a></li>
+                <li><a class="nav-link" href="google-advanced-search.html">Advanced Search</a></li>
             </ul>
         </div>
-        <div id="main-content">
-            <form action="https://google.com/search">
-                <input id="search_field" type="text" name="q">
+        <div id="search-layout">
+        	<form action="https://google.com/search">
+        	<div id="search-field">            
+                <input type="text" name="q">
+            </div>
+            <div id="buttons">
                 <input type="submit" value="Google Search">
                 <input type="submit" value="I'm Feeling Lucky">
+            </div>
             </form>
         </div>
 	</div>   

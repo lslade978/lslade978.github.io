@@ -17,37 +17,36 @@ body {
 	background-color: red;
 }
 
-#main-content {
-	width:100%;
-	background-color: blue;
-}
-
 .nav {
 	display: flex;
 	flex-wrap: nowrap;
 	list-style: none;
-	background-color: green;
 	justify-content: flex-end;
 }
 
 .nav-link {
 	display: block;
     line-height: 24px;
-    padding-left: 15px;
+    padding-left: 20px;
     color: #000;
     opacity: 0.75;
 	text-decoration: none;
-	background-color: pink;
 }
 
 a:hover {
 	text-decoration: underline;
 }
-/*
-.search-layout {
 
+#search-layout {
+    position: relative;
+    margin: 0 auto;
+    padding-top: 272px;
+    width: auto;
+	min-width: 400px;
+    max-width: 484px;
+	background-color: red;
 }
-
+/*
 .search-surround {
     background: #fff;
     display: flex;
