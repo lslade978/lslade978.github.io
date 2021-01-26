@@ -21,7 +21,7 @@ body {
 	width:100%;
 	background-color: blue;
 }
-/*
+
 .nav {
 	display: flex;
 	flex-wrap: nowrap;
@@ -29,7 +29,7 @@ body {
 	background-color: green;
 	justify-content: flex-end;
 }
-
+/*
 .nav-item {
     color: #000;
     opacity: 0.75;
