@@ -13,13 +13,11 @@ body {
 }
 
 #header {
-	margin: auto;
 	width:100%;
 	background-color: red;
 }
 
 #main-content {
-	margin: auto;
 	width:100%;
 	background-color: blue;
 }
