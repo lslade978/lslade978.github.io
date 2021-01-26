@@ -29,17 +29,10 @@ body {
 	background-color: green;
 	justify-content: flex-end;
 }
-/*
-.nav-item {
-    color: #000;
-    opacity: 0.75;
-	text-decoration: none;
-}
 
 .nav-link {
 	display: block;
     line-height: 24px;
-    vertical-align: middle;
     padding-left: 15px;
     color: #000;
     opacity: 0.75;
@@ -47,10 +40,10 @@ body {
 	background-color: pink;
 }
 
-.nav-link a:hover {
+a:hover {
 	text-decoration: underline;
 }
-
+/*
 .search-layout {
 
 }
