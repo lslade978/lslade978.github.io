@@ -15,22 +15,18 @@ body {
 #header {
 	margin: auto;
 	width:100%;
-	padding: 10px;
 	background-color: red;
 }
 
 #main-content {
 	margin: auto;
 	width:100%;
-	padding: 10px;
 	background-color: blue;
 }
-
+/*
 .nav {
 	display: flex;
 	flex-wrap: nowrap;
-	padding: 0;
-	margin: 0;
 	list-style: none;
 	background-color: green;
 	justify-content: flex-end;
@@ -105,3 +101,4 @@ input[type="submit"] {
     user-select: none;
 }
 
+*/
