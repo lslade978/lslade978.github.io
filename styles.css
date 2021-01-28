@@ -8,8 +8,7 @@ body {
 
 #outer-container {
 	margin: auto;
-	width: 100%;
-	padding: 10px;
+	width: 95%;
 }
 
 #header {
@@ -41,8 +40,9 @@ a:hover {
     margin: 0 auto;
     padding-top: 272px;
     width: auto;
-	min-width: 400px;
+	  min-width: 400px;
     max-width: 484px;
+    text-align: center;
 }
 
 .search-surround {
@@ -57,21 +57,23 @@ a:hover {
 }
 
 .search_field {
-	background-color: transparent;
+	  background-color: transparent;
     border: none;
     margin: 0;
     padding: 0;
     color: rgba(0,0,0,.87);
     outline: none;
     display: flex;
-    flex: 100%;
+    flex: 90%;
     -webkit-tap-highlight-color: transparent;
-    margin-top: -37px;
-	font: 16px arial,sans-serif;
+	  font: 16px arial,sans-serif;
     line-height: 34px;
     height: 34px !important;
+    margin-top: 5px;
+    margin-left: 10px;
+    margin-right: 10px;
 }
-/*
+
 input[type="submit"] {
     background-color: #f8f9fa;
     border: 1px solid #f8f9fa;
@@ -89,4 +91,3 @@ input[type="submit"] {
     user-select: none;
 }
 
-*/
