@@ -1,12 +1,48 @@
 <!DOCTYPE html>
 <html lang="en">
     <head>
-        <title>Google Advanced Search</title>
+        <title>Google Search</title>
+        <link href="styles.css" type="text/css" rel="stylesheet">
     </head>
     <body>
-        <form action="https://google.com/search">
-            <input type="text" name="q">
-            <input type="submit" value="Google Advanced Search">
-        </form>
+    <div id="outer-container">
+    	<div id="header">
+            <ul class="nav">
+                <li><a class="nav-link" href="google-image-search.html">Image Search</a></li>
+                <li><a class="nav-link" href="google-advanced-search.html">Advanced Search</a></li>
+            </ul>
+      </div>
+      <div class="appbar"> <label style="margin-left:10px"> Advanced Search</label>   
+      </div>
+      <div class="advsearch">
+        <div class="leftCol">
+          <label> all these words:</label>
+        </div>
+        <div class="rightCol">
+          <input class="textinput" value="" autofocus="autofocus" name="all_words" type="text">
+        </div>
+        <div class="break">&nbsp;</div>
+        <div class="leftCol">
+          <label>this exact word or phrase:</label>
+        </div>
+        <div class="rightCol">
+          <input class="textinput" value="" autofocus="autofocus" name="exact_words" type="text">
+        </div>
+         <div class="break">&nbsp;</div>
+        <div class="leftCol">
+          <label>any of these words:</label>
+        </div>
+        <div class="rightCol">
+          <input class="textinput" value="" autofocus="autofocus" name="any_words" type="text">
+        </div>
+         <div class="break">&nbsp;</div>
+        <div class="leftCol">
+          <label>none of these words:</label>
+        </div>
+        <div class="rightCol">
+          <input class="textinput" value="" autofocus="autofocus" name="no_words" type="text">
+        </div>
+      </div>
+	</div>   
     </body>
 </html>

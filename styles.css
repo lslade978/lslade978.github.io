@@ -89,6 +89,11 @@ a:hover {
     margin-left: 5px;
 }
 
+input[type="text"] {
+    width: 100%;
+    text-align: left;
+}
+
 input[type="submit"] {
     background-color: #f8f9fa;
     border: 1px solid #f8f9fa;
@@ -116,4 +121,64 @@ input[type="submit"]:hover {
 .search-surround:hover {
     -webkit-box-shadow: 0 0 0 1px rgba(0,0,0,.15);
     box-shadow: 0 0 0 1px rgba(0,0,0,.15);
+}
+
+.logo-subtext {
+    color: #4285f4;
+    font: 16px/16px roboto-regular, arial, sans-serif;
+    left: 215px;
+    position: relative;
+    top: 76px;
+    white-space: nowrap;
+}
+
+/*Styles for advanced search page.*/
+.appbar {
+    color: #d93025;
+    font-size: 20px;
+    margin: 25px 35px;
+}
+
+div.advsearch {
+    margin: 25px 35px;
+    width: 100%;
+    clear: both;
+}
+
+div.leftCol {
+    float: left;
+    min-width: 167px;
+    width: 16%;
+    height: 30px;
+    display: inline-block;
+    vertical-align: middle;
+    color: #222;
+    line-height: 16px;
+    font-size: 16px;
+    padding-top: 5px;
+}
+
+div.rightCol {
+    float: left;
+    display: inline-block;
+    min-width: 167px;
+    height: 35px;
+    vertical-align: middle;
+    width: 50%;
+    padding-right: 16px;
+}
+
+.textinput {
+    -webkit-border-radius: 1px;
+    -moz-border-radius: 1px;
+    border-radius: 1px;
+    border: 1px solid #d9d9d9;
+    border-top: 1px solid #c0c0c0;
+    font-size: 13px;
+    height: 25px;
+    padding: 1px 8px;
+}
+
+div.break {
+    clear: both;
 }
