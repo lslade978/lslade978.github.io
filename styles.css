@@ -94,7 +94,7 @@ input[type="text"] {
     text-align: left;
 }
 
-input[type="submit"] {
+input.light-button {
     background-color: #f8f9fa;
     border: 1px solid #f8f9fa;
     border-radius: 4px;
@@ -111,7 +111,7 @@ input[type="submit"] {
     user-select: none;
 }
 
-input[type="submit"]:hover {
+input.light-button:hover {
     -webkit-box-shadow:0 1px 0 rgba(0,0,0,.15);
     box-shadow:0 1px 0 rgba(0,0,0,.15);
     border: 1px solid #dfe1e5;
